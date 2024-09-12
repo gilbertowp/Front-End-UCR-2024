@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Módulo 02/Juego_Ahorcado/css/styles.css">
+    <title>Juego del Ahorcado</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Juego del Ahorcado</h1>
+        <div id="hangman-container">
+            <img src="/Módulo 02/Juego_Ahorcado/media/hangman0.jpeg" alt="" id="hangman-image">
+        </div>
+
+        <div id="word-container">
+            <p id="hidden-word">_ _ _ _ _ _</p>
+        </div>
+        <div id="input-container">
+            <label for="letter-input">Ingresa una letra:</label>
+            <input type="text" name="" id="letter-input" maxlength="1" autofocus>
+            <button id="guess-button">Adivinar</button>
+        </div>
+        <p id="remaining-attemps">Errores restantes: 5</p>
+        <p id="message"></p>
+        <button id="restart-button">Reiniciar</button>
+    </div>
+    <script src="/Módulo 02/Juego_Ahorcado/scripts/script.js"></script>
+</body>
+</html>
